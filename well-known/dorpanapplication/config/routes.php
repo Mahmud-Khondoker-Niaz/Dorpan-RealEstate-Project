@@ -1,0 +1,74 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/*
+| -------------------------------------------------------------------------
+| URI ROUTING
+| -------------------------------------------------------------------------
+| This file lets you re-map URI requests to specific controller functions.
+|
+| Typically there is a one-to-one relationship between a URL string
+| and its corresponding controller class/method. The segments in a
+| URL normally follow this pattern:
+|
+|	example.com/class/method/id/
+|
+| In some instances, however, you may want to remap this relationship
+| so that a different class/function is called than the one
+| corresponding to the URL.
+|
+| Please see the user guide for complete details:
+|
+|	http://codeigniter.com/user_guide/general/routing.html
+|
+| -------------------------------------------------------------------------
+| RESERVED ROUTES
+| -------------------------------------------------------------------------
+|
+| There area two reserved routes:
+|
+|	$route['default_controller'] = 'welcome';
+|
+| This route indicates which controller class should be loaded if the
+| URI contains no data. In the above example, the "welcome" class
+| would be loaded.
+|
+|	$route['404_override'] = 'errors/page_missing';
+|
+| This route will tell the Router what URI segments to use if those provided
+| in the URL cannot be matched to a valid route.
+|
+*/
+
+$route['default_controller'] = "welcome";
+$route['404_override'] = '';
+ 
+$route['page/(:num)/(:any)']='page/index/$1/$2';
+$route['page/(:num)']='page/index/$1';
+ 
+
+$route['contact']='page/contact';
+
+$route['management']='page/management';
+$route['management/(:num)']='page/management/$1'; 
+
+$route['enterprise']='page/enterprise';
+$route['enterprise/(:num)']='page/enterprise/$1'; 
+
+
+$route['message']='page/message';
+$route['message/(:num)']='page/message/$1'; 
+
+ 
+$route['news/(:num)']='page/news/$1'; 
+
+$route['project/']='page/project'; 
+$route['project/(:num)']='page/project/$1'; 
+
+
+$route['projectlist']='page/projectlist'; 
+$route['projectlist/(:num)']='page/projectlist/$1'; 
+
+
+
+  
+/* End of file routes.php */
+/* Location: ./application/config/routes.php */

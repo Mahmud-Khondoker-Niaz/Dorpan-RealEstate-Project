@@ -1,0 +1,1 @@
+[23-Sep-2016 10:40:15 America/Chicago] PHP Fatal error:  Call to undefined function scandirSorted() in /home/dorpangroup/public_html/dpl/assets/tinymce/plugins/image/contents.php on line 9

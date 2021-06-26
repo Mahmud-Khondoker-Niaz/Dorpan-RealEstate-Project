@@ -1,0 +1,6 @@
+[22-Jul-2016 04:18:37 America/Chicago] PHP Warning:  scandir(../uploaded/): failed to open dir: No such file or directory in /home/dorpangroup/public_html/cms/assets/filemanager/dialog.php on line 332
+[22-Jul-2016 04:18:37 America/Chicago] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/dorpangroup/public_html/cms/assets/filemanager/dialog.php on line 332
+[22-Jul-2016 04:18:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dorpangroup/public_html/cms/assets/filemanager/dialog.php on line 339
+[22-Jul-2016 04:21:23 America/Chicago] PHP Warning:  scandir(../uploaded/): failed to open dir: No such file or directory in /home/dorpangroup/public_html/cms/assets/filemanager/dialog.php on line 332
+[22-Jul-2016 04:21:23 America/Chicago] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/dorpangroup/public_html/cms/assets/filemanager/dialog.php on line 332
+[22-Jul-2016 04:21:23 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dorpangroup/public_html/cms/assets/filemanager/dialog.php on line 339
